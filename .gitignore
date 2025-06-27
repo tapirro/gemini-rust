@@ -1,0 +1,115 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo
+# Note: Cargo.lock is typically ignored for libraries but included for applications
+# Since it's already tracked in this repo, we'll leave it
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+Session.vim
+Sessionx.vim
+
+# Emacs
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.out
+*.pid
+*.seed
+*.gz
+*.bak
+*.orig
+*.rej
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Documentation build
+book/
+target/doc/
+
+# Test artifacts
+test-results/
+coverage/
+*.profraw
+*.profdata
+
+# IDE-specific Rust files
+rust-analyzer.log
+.rust-analyzer/
+
+# Flamegraph profiling
+flamegraph.svg
+perf.data*
+
+# Benchmarking
+criterion/
+
+# Coverage reports
+tarpaulin-report.html
+cobertura.xml
+lcov.info
+
+# API keys and secrets (safety net)
+*.key
+*.pem
+*.crt
+*.p12
+secret*
+*secret*
+.secrets/
+
+# Local development
+.local/
+tmp/
+temp/
+
+# Rust documentation
+/doc/
+
+# Cache directories
+.cache/
+.cargo-cache/
+
+# Debugging
+*.dSYM/
+core
+core.*
